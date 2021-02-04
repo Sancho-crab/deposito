@@ -30,5 +30,11 @@ class DepositoCombustibleTest {
 		assertEquals(exp, res, 0.1);
 		
 	}
+	
+	@Test
+	public void estarVacioTest() {
+		boolean res;
+		assertTrue(res = tank.estaVacio());		
+	}
 
 }
