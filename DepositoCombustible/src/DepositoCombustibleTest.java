@@ -21,5 +21,14 @@ class DepositoCombustibleTest {
 		assertEquals(exp, res, 0.1);
 		
 	}
+	
+	@Test
+	public void getDepositoMaxTest() {
+		
+		double exp = 40.0;
+		double res = tank.getDepositoMax();
+		assertEquals(exp, res, 0.1);
+		
+	}
 
 }
